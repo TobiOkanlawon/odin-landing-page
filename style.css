@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero-area {
+    padding: 12px 48px;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.hero-left-side h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #EFE7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #EFE7EB;
+    border-size: 0px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 20px;
+    font-weight: semi-bold;
+}
+
+.hero-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    background-color: gray;
+    padding: 20px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 100px;
+}
+
+.nav-left-side {
+    color: #F9FAF8;
+    font-size: 24px;
+    align-items: center;
+}
+
+.nav-right-side ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-right-side ul li {
+    list-style: none;
+}
+
+.nav-right-side ul li a {
+    color: #EFE7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 20px;
+    padding: 10px 100px;
+    margin: 80px 0px;
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    color: #EFE7EB;
+}
+
+.random {
+    background-color: white;
+    dislay: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.random-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    font-weight: bold;
+}
+
+.CTA-section {
+    color: #E5E7EB;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.CTA-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: #EFE7EB;
+    font-size: 12px;
+}
+
